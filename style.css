@@ -1,0 +1,32 @@
+body {
+    font-family: 'Edu SA Beginner', cursive;
+    background: plum;
+    }
+    .header_div {
+        background: palevioletred;
+        color: aqua;
+    }
+    .header_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    .main_div button{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 30px;
+        width: 130px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    .crf{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        line-height: 3;
+        color: blue;
+        background-color: antiquewhite;
+        text-shadow: 5px 5px 5px rgb(151,149,149);
+        text-align: center;
+    }
