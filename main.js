@@ -27,18 +27,21 @@ b=Math.floor(Math.random()*255)+1;
         document.getElementById("result_class").innerHTML = 'Accuracy -' + (results[0].confidence * 100).toFixed(2) + "%";
         document.getElementById("result_class").style.color="rgb("+r+","+g+","+b+")";
         document.getElementById("result_number").style.color="rgb("+r+","+g+","+b+")";
-        img = document.getElementById('alien1');
+        img = document.getElementById('image');
         if (results[0].label == "barking") {
-            img.src = 'dog.png';
+            img.src = 'dog1.jpg';
         } else if (results[0].label == "meowing") {
-            img.src = 'cat.png';
+            img.src = 'cat1.jpg';
             
         } else if (results[0].label=="mooing") {
-            img.src = 'cow.png';
+            img.src = 'cow1.jpg';
             
         } else if (results[0].label=="roaring"){
-            img.src = 'lion.png';
+            img.src = 'download.jpg';
             
+        }
+        else {
+            img.src = 'Capture.PNG';  
         }
     }
 }
